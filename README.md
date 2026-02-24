@@ -20,8 +20,17 @@ A simple, user-friendly desktop weather application built with Python. This app 
 
 ## 🚀 Installation & Setup
 
-1. **Clone the repository:**
-```bash
-   git clone https://github.com/YOUR-USERNAME/Python-Weather-App-GUI.git
-   cd Python-Weather-App-GUI
+1. **Install required packages:**
+Make sure you have Python installed. Then, install the required external libraries using pip:
+```pip install requests Pillow```
+
+2. **Get your API Key:**
+- Go to OpenWeatherMap and create a free account.
+- Generate a free API Key.
+- Open the python file and replace "YOUR_API_KEY_HERE" with your actual API key:
+``` api_key = "YOUR_API_KEY_HERE"```
    
+3. **Run the app:**
+```python main.py```
+
+<img width="398" height="491" alt="image" src="https://github.com/user-attachments/assets/6618c7fe-c9c4-4e7f-b023-f2fc44b34818" />
